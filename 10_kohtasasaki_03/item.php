@@ -73,10 +73,10 @@ if($status==false) {
         <div class="flex-parent item-label">
           <p class="item-text"><?=$row["description"]?></p>
         </div>
-        <input type="hidden" name="item" value="<?=$row["*****"]?>">
-        <input type="hidden" name="value" value="<?=$row["*****"]?>">
-        <input type="hidden" name="id" value="<?=$row["*****"]?>">
-        <input type="hidden" name="fname" value="<?=$row["*****"]?>">
+        <input type="hidden" name="item" value="<?=$row["item"]?>">
+        <input type="hidden" name="value" value="<?=$row["value"]?>">
+        <input type="hidden" name="id" value="<?=$row["id"]?>">
+        <input type="hidden" name="fname" value="<?=$row["fname"]?>">
       </main>
     </div>
   </div>
